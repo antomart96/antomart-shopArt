@@ -1,0 +1,78 @@
+body {
+  padding-bottom: 1000px;
+  font-family: "Archivo", sans-serif;
+}
+
+header, main {
+  width: 1000px;
+  margin: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul button {
+  border: none;
+  background-color: white;
+}
+
+main #section1 article {
+  display: flex;
+}
+main #section2 {
+  display: flex;
+}
+main #section3 article {
+  display: flex;
+  justify-content: space-between;
+}
+main #section3 article #div2section3 {
+  display: flex;
+}
+main #section3 #mainImage {
+  width: 100%;
+}
+main #section4 {
+  display: flex;
+  justify-content: space-between;
+}
+main #section4 #detailsDiv {
+  display: flex;
+  justify-content: space-between;
+}
+main #section4 div.right div {
+  display: flex;
+}
+main nav, main section#cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main section#cards article {
+  width: 21%;
+  position: relative;
+}
+main section#cards article img {
+  width: 100%;
+}
+main section#cards article .seller {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+}
+main li img {
+  float: left;
+  padding-right: 20px;
+}
+main li p {
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

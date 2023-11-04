@@ -1,0 +1,93 @@
+
+
+body {
+    padding-bottom: 1000px;
+    font-family: 'Archivo', sans-serif;
+
+}
+header, main{
+    width: 1000px;
+    margin: auto;
+}
+header{         //HEADER
+    nav{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            list-style: none;
+            button{
+                border: none;
+                background-color: white
+            }
+        };
+    }
+}
+main {          //MAIN
+    #section1{      //SECTION1
+        article{
+             display: flex;
+        }
+    }
+    #section2{      //SECTION2
+        display: flex;
+    }
+    #section3{      //SECTION3
+        article{
+            display: flex;
+            justify-content: space-between;  
+            #div2section3{
+                display: flex;
+            }
+       } 
+       #mainImage{
+            width: 100%;
+        }
+    }
+    #section4{          //SECTION14
+        display: flex;
+        justify-content: space-between;
+        #detailsDiv{
+            display: flex;
+            justify-content: space-between;
+        }
+        div.right{
+            div{
+                display: flex;
+            }
+        }
+    }
+    // CSS where I try to put the JavaScript
+    nav,  section#cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section#cards article {
+        width: 21%;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .seller {
+        background-color: black;
+        padding: 10px 20px;
+        color: white;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+    }
+    }
+    li{
+        img{
+            float: left;
+            padding-right: 20px;
+        }
+        p{
+            padding: 20px;
+        }
+    }
+}
+  
+  

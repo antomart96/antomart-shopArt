@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Document</title>
+    <!-- Css files -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+          <div>
+            <img src="images/logo.png" alt="">
+          </div>
+          <ul>
+            <li><button><img src="images/icon-search.png" alt=""></button></li>
+            <li><button><img src="images/User.png" alt=""></button>
+            <li><button><img src="images/icon-bucket.png" alt=""></button></li>
+          </ul>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!--  section 1 profil -->
+      <section id="section1">
+        <article>
+          <img src="images/John Howell.png" alt="">
+          <div>
+            <h4>John Howell</h4>
+            <a href="#">Photographer</a>
+            <p>Manila, Philippines</p>
+          </div>
+          <button>FOLLOW</button>
+        </article>
+      </section>
+        <!-- section 2 stat -->
+      <section id="section2">
+        <p>134,890 Photos</p>
+        <p>14,890 Prints</p>
+        <p>35.893 Items</p>
+      </section>
+      <hr/>
+        <!-- section 3 main pic -->
+      <section id="section3">
+          <article>
+              <div>
+                <h4>Red Bench</h4>
+              </div>
+              <div id="div2section3">
+                <img src="images/icon-bought.png" alt="">
+                <p>13,089 have bought this</p>
+                <button>BUY THIS ITEM</button>
+              </div>
+          </article>
+          <img id="mainImage" src="images/main-pic.png" alt="">
+      </section>
+        <!-- section 4 html under the big picture -->
+      <section  id="section4">
+        <article class="left">
+            <div class="left">
+              <h4>About the Red Bench</h4>
+              <p>So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.</p>
+            </div>
+            <div class="left">
+              <h4>Details</h4>
+              <div id="detailsDiv">
+                 <p>Size: 1020 x 1020 pixel</p>
+                 <p>Size: 15 mb</p>
+              </div>
+              <p>Type: PNG</p>
+            </div>
+        </article>
+        <article class="right">
+            <div class="right">
+              <h4>People also buy</h4>
+              <div>
+                <img src="images/aside-buy-1.png" alt="">
+                <img src="images/aside-buy-2.png" alt="">
+                <img src="images/aside-buy-3.png" alt="">
+              </div>
+            </div>
+            <div class="right">
+              <h4>People also buy</h4>
+              <div>
+                <img src="images/friend1.png" alt="">
+                <img src="images/friend2.png" alt="">
+                <img src="images/friend3.png" alt="">
+                <img src="images/friend4.png" alt="">
+              </div>
+            </div>
+        </article>
+      </section>
+      <hr /> <!-- under is the html for the script part !  -->
+      <nav>
+        <div class="left">
+          <button id="all">All</button>/
+          <button id="best">Best Seller</button>
+        </div>
+        <div class="right">
+          <img src="images/icon-filter.png" alt="" />
+          Sort by
+          <button id="name">Name</button>/
+          <button id="price">Price</button>
+        </div>
+      </nav>
+      <section id="cards">
+        <article>
+          <div class="seller">Best Seller</div>
+          <img src="images/pic-apple.png" alt="" />
+          <h3>Title of that crap</h3>
+          <h4>Too F**king expessive</h4>
+        </article>
+      </section>
+      <hr />
+      <section>
+        <h2>Comments</h2>
+        <form action="IDontCare.php">
+          <textarea name="" id="comment"></textarea>
+          <button type="submit">submit</button>
+        </form>
+        <p id="alarm"></p>
+        <ul id="coms">
+          <li>
+            <img src="images/friend4.png" alt="" />
+            <p>First! HAHAHA</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/cloning.js"></script>
+    <script src="scripts/filtering.js"></script>
+    <script src="scripts/forms.js"></script>
+  </body>
+</html>
