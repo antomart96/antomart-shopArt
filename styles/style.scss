@@ -27,10 +27,19 @@ main {          //MAIN
     #section1{      //SECTION1
         article{
              display: flex;
+             img{
+                margin: 10px 0px;
+             }
+            button{
+                margin: 50px 0px;
+            }
         }
     }
     #section2{      //SECTION2
         display: flex;
+        justify-content: center;
+        background-color: lightgray;          
+        margin: 0px 30%;
     }
     #section3{      //SECTION3
         article{
@@ -38,6 +47,15 @@ main {          //MAIN
             justify-content: space-between;  
             #div2section3{
                 display: flex;
+                button{
+                    margin: 20px 0px;
+                }
+                img{
+                    margin: 20px 0px;
+                 }
+                p{
+                    margin: 30px 0px;
+                }
             }
        } 
        #mainImage{
@@ -47,6 +65,20 @@ main {          //MAIN
     #section4{          //SECTION14
         display: flex;
         justify-content: space-between;
+        gap: 200px;
+        #left{
+            width: 60%;
+
+        }
+        #right{
+            width: 40%;
+            div{
+                gap: 30px;
+            }
+            img{
+                width: 100px;
+            }
+        }
         #detailsDiv{
             display: flex;
             justify-content: space-between;
